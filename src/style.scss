@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+.showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 90%;
+  margin: 0 auto;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-family: "Baskervville SC";
+    font-weight: 600;
+    font-size: 80px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: normal;
+  }
+  p {
+    width: 50%;
+    text-align: center;
+    font-family: "oxygen";
+    font-size: 20px;
+  }
+}
+.pricing {
+  background: url("/Frame (1).png");
+  width: 100%;
+  height: 80vh;
+  margin: 40px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.facts {
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  align-content: inherit;
+  justify-content: space-between;
+  gap: 50px;
+  .left {
+    background: url("https://s3-alpha-sig.figma.com/img/5574/4840/125c2502461e5d8301787d38119195cf?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Go7KUVF1BPXyQZ5Cso-4Re9WpYgf6Vdy3ILqdXwe4NKGtXGFwxVt0d9FsPYmtYzHTOf2U3vwBJL8cWjZw5BkbYaz1uaO5ZD-U12q6Oz8hHgz7P43WblDgbU21PrLX2uhisqgi20MLFwk9Ltl-ikRXcV5O2tCk0OBblPgZrm8hPUUF~ffpcqikzW2uk2oT24OXKj9J73H3z9NMBNT503UXg1ZRa3Z3u-QB1K1szTx4o5GnCdfy2DHGtyUWgkgyOWoV7GrQ5UANQNtZa~es9qaXdwNn8ZD5U~y7P-oMOJe1nu3DJHIoMQz-AXm3c5HcQN8Vluu8IV72zMUso7F~hxxHQ__");
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+  }
+  .info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    h1 {
+      font-family: "Baskervville SC";
+      font-weight: 600;
+      font-size: 40px;
+    }
+    p {
+      width: 70%;
+      font-family: "oxygen";
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      h2 {
+        font-family: "oxygen";
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      li {
+        border-bottom: 1px solid;
+        padding: 10px 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.questions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  .left {
+    background: url("https://s3-alpha-sig.figma.com/img/046d/0450/1118659d629e552445892aea9f3c3f15?Expires=1725840000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TG3vMlSf4yL5OvVuwuRvNBibWpYHw4ohVy7RRRx96zu7lPMoQBSSJc9lV1YuIvbIKW-OlhJydn6BtSOaFUSGcyywf3W3X~m~BL1yMu-kVfFATez7vOdytDN1vg73~A2NgvDy2sjipuU0j7-w-J40yi7bnIq2s0n7fjaUpOzd7SfIxTzw7ysUbkzKW4CPfKLbQz1lbNFKDkwnrA0Nda1I0Hdb9EBtqyXdajX41HmKsGXezT20ayNkV2C491VnTE93cIauB2tBvY6gev-cLl68NNTFfmlTwKtQSy4D~7ssOa1mp~0o8sup0DKLAcRnflpNuizUGIfWCyTAclyO9gkNwg__");
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+  }
+  .fa {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1 {
+      font-family: "Baskervville SC";
+      font-size: 40px;
+      width: 70%;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-family: serif;
+      width: 400px;
+      margin-right: auto;
+      .butt {
+        text-align: center;
+      }
+    }
+  }
+}
+.cont {
+  background: #e4e2d3;
+  .footer {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 0;
+    gap: 40px;
+    .top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font-family: "Baskervville SC";
+        font-weight: 600;
+      }
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        li{
+            border: 1px solid;
+            padding: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            aspect-ratio: 1;
+        }
+      }
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        p{
+            width: 400px;
+        }
+        .uls{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            ul{
+                h3{
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+  }
+}
+@media (max-width: 800px) {
+  .showcase {
+    gap: 20px;
+    height: 60vh;
+    h1 {
+      font-size: 60px;
+      line-height: 60px;
+      width: 90%;
+    }
+    p {
+      width: 90%;
+    }
+  }
+  .facts {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .left {
+      width: 100%;
+      height: 500px;
+    }
+    .info {
+      width: 100%;
+      text-align: center;
+      h1,
+      p,
+      button {
+        margin: 0 auto;
+      }
+    }
+  }
+  .questions {
+    text-align: center;
+    .left {
+      display: none;
+    }
+    form,
+    h1 {
+      margin: 0 auto;
+      width: 100% !important;
+    }
+  }
+  .footer{
+    .top{
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        li{
+            border: none !important;
+            font-size: 20px;
+        }
+    }
+    .bottom{
+        flex-direction: column !important;
+        gap: 20px;
+        justify-content: center ;
+        align-items: center;
+        p{
+            width: 100% !important;
+        }
+    }
+
+  }
+}
+@media (max-width: 500px) {
+  .showcase {
+    height: 90vh;
+    h1 {
+      font-size: 40px;
+      line-height: 50px;
+      width: 100%;
+    }
+  }
+
+  .footer{
+    .bottom{
+        .uls{
+            display: grid !important;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+  }
+}
